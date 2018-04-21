@@ -1,0 +1,19 @@
+Test 1.
+Input: 1 2
+Output: 2 1
+
+Test 2.
+Input: 22 54
+Output: 54 22
+
+Test 3.
+Input: -76 -98
+Output:-98 -76
+
+Test 4.
+Input: -12 23
+Output: 23 -12
+
+Test 5.
+Input: 0 45
+Output: 45 0
