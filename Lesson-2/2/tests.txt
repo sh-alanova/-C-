@@ -1,19 +1,29 @@
-Test 1.
+Test 0.
 Input: 150
+Correct output: 2 30
 Output: 2 30
+
+Test 1.
+Input: 60
+Correct output: 1 0
+Output: 1 0
 
 Test 2.
 Input: 45
+Correct output: 0 45
 Output: 0 45
 
 Test 3.
 Input: 760
+Correct output: 12 40
 Output: 12 40
 
 Test 4.
 Input: 454545
+Correct output: 15 45
 Output: 15 45
 
 Test 5.
 Input: 0
+Correct output: 0 0 
 Output: 0 0
