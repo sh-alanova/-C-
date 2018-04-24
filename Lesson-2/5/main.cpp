@@ -5,9 +5,8 @@ int main()
 {
   int a, b;
   scanf("%d%d", &a, &b);
-  int c;
-  c = a;
+  int temp = a;
   a = b;
-  b = c;
+  b = temp;
   printf("%d %d", a, b);
 }
