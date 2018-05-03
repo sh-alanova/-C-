@@ -1,12 +1,10 @@
-#include <iostream>
 #include <stdio.h>
-using namespace std;
-int main()
-{
-  int a, b;
-  scanf("%d%d", &a, &b);
-  int temp = a;
-  a = b;
-  b = temp;
-  printf("%d %d", a, b);
+
+int main(){
+    int n;
+    scanf("%d", &n);
+    int a = n % 10;
+    int b = n / 10 % 10;
+    int c = n / 100;
+    printf("%d", a+b+c);
 }
