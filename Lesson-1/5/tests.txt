@@ -15,7 +15,7 @@ Output: 23 15
 
 Test 3.
 Input: 67 98
-Correct output: 978 67
+Correct output: 98 67
 Output: 98 67
 
 Test 4.
