@@ -5,6 +5,7 @@ int main()
 {
     int m, n;
     scanf("%d\n%d", &m, &n);
-    printf("%d", (m+n-1) / m);
+    int day = (m + n - 1) / m;
+    printf("%d", day);
 }
 
