@@ -3,17 +3,14 @@
 int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
-        if (a >= b && a >= c) {
+    if(a >= b && a >= c) {
         printf("%d", a);
-        return 0;
-        }
-        if (b >= a && b >= c) {
+    }
+    else if(b >= a && b >= c) {
         printf("%d", b);
-        return 0;
-        }
-        if (c >= b && c >= a) {
+    }
+    else if(c >= b && c >= a) {
         printf("%d", c);
-        return 0;
-        }
+    }
 }
 
