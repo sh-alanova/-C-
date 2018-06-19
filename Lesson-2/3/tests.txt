@@ -1,0 +1,49 @@
+Test 0.1.
+Input: 
+2
+4
+Correct output: 2
+Output: 2
+
+Test 0.2.
+Input: 
+2
+5
+Correct output: 3
+Output: 3
+
+Test 1.
+Input: 
+7
+20
+Correct output: 3
+Output: 3
+
+Test 2.
+Input: 
+1
+9
+Correct output: 9
+Output: 9
+
+Test 3.
+Input: 
+5
+1243578
+Correct output: 248716
+Output: 248716
+
+Test 4.
+Input: 
+3
+2347
+Correct output: 783
+Output: 783
+
+Test 5.
+Input: 
+57
+333457821
+Correct output: 5850138
+Output: 5850138
+
