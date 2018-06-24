@@ -3,14 +3,15 @@
 int main () {
     int n;
     scanf("%d", &n);
-    int A[n], k = 0;
+    int array[n];
     for (int i = 0; i < n; ++i) {
-        scanf("%d", &A[i]);
+        scanf("%d", &array[i]);
     }
+    int count = 0;
     for (int i = 1; i < n - 1; ++i) {
-        if (A[i] > A[i - 1] && A[i] > A[i + 1] ) {
-            ++k;
+        if (array[i] > array[i - 1] && array[i] > array[i + 1] ) {
+            ++count;
         }
     }
-    printf("%d", k);
+    printf("%d", count);
 }
