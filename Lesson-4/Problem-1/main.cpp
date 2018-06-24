@@ -3,10 +3,9 @@
 int main () {
     int n;
     scanf("%d", &n);
-    int k = 2, sum = 0;
+    int sum = 0;
     for (int i = 1; i < n; ++i) {
-        sum += i * k;
-        ++k;
+        sum += i * (i + 1);
     }
     printf("%d", sum);
 }
