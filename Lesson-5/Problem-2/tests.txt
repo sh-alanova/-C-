@@ -1,0 +1,30 @@
+Test 0.
+Input: 2 + 2 = 4
+Correct output: 8
+Output: 8
+
+Test 1.
+Input: 1 + 2 + 5 
+Correct output: 8
+Output: 8
+
+Test 2.
+Input: 1 2 3 4 5
+Correct output: 15
+Output: 15
+
+Test 3.
+Input: 3 - 4 = 1
+Correct output: 8
+Output: 8
+
+Test 4.
+Input: 1 = 9 
+Correct output: 10
+Output: 10
+
+Test 5.
+Input: 4 6 7 
+Correct output: 17
+Output: 17
+
