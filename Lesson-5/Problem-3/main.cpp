@@ -10,7 +10,7 @@ int main() {
         if(strs[i] == '+') {
             sum += strs[i + 1] - '0';
         } else if(strs[i] == '-') {
-            sum += strs[i + 1] - '0';
+            sum -= strs[i + 1] - '0';
         }
     }
     printf("%d", sum);
