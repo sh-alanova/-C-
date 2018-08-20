@@ -1,0 +1,35 @@
+Test 0.1.
+Input: 1:00 a.m
+Correct output: 01:00
+Output: 01:00
+
+Test 0.2.
+Input: 12:34 p.m
+Correct output: 12:34
+Output: 12:34
+
+Test 1.
+Input: 11:57 p.m
+Correct output: 23:57 
+Output: 23:57
+
+Test 2.
+Input: 8:30 a.m
+Correct output: 8:30
+Output: 8:30
+
+Test 3.
+Input: 12:00 a.m
+Correct output: 00:00
+Output: 00:00
+
+Test 4.
+Input: 6:50 a.m
+Correct output: 6:50
+Output: 6:50
+
+Test 5.
+Input: 3:45 p.m
+Correct output: 15:45
+Output: 15:45
+
