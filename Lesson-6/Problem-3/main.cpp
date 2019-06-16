@@ -9,9 +9,9 @@ int main() {
         res = a;
     } else if(n < 5) {
             res = (double) a / b;
-        } else {
+    } else {
             res = a + (double) b / c;
-        }
-        printf("%f", res);
-        return 0;
+    }
+    printf("%f", res);
+    return 0;
 }
