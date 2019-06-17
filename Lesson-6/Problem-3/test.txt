@@ -1,0 +1,44 @@
+Test 0.1.
+Input: 7
+Correct output: 7.000000
+Output:  7.000000
+
+Test 0.2.
+Input: 1/3
+Correct output: 0.333333
+Output: 0.333333
+
+Test 0.3.
+Input: 1 1/2
+Correct output: 1.500000
+Output:  1.500000
+
+Test 1.
+Input: 1
+Correct output: 1.000000
+Output: 1.000000
+
+Test 2.
+Input: 1/4
+Correct output: 0.250000
+Output: 0.250000
+
+Test 3.
+Input: 1 1/6
+Correct output: 1.666667
+Output: 1.666667
+
+Test 4.
+Input: 10 1/9
+Correct output: 10.111111
+Output: 10.111111
+
+Test 5.
+Input: 1/42
+Correct output: 0.023810
+Output: 0.023810
+
+Test 6.
+Input: 63
+Correct output: 63.000000
+Output: 63.000000
