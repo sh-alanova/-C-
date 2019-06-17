@@ -6,12 +6,12 @@ int main() {
     double res;
     n = scanf("%d%c%d%c%d", &a, &d, &b, &d, &c);
     if(n < 3) {
-        res = a;
+        res = (double) a;
     } else if(n < 5) {
-            res = (double) a / b;
+        res = (double) a / b;
     } else {
-            res = a + (double) b / c;
+        res = a + (double) b / c;
     }
-    printf("%f", res);
+    printf("%f\n", res);
     return 0;
 }
