@@ -1,0 +1,29 @@
+Test 0.
+Input: 127.0.0.1
+Correct output: YES
+Output: YES
+
+Test 1.
+Input: 0.0.0.0
+Correct output: YES
+Output: YES
+
+Test 2.
+Input: 498.9.7.0
+Correct output: NO
+Output: NO
+
+Test 3.
+Input: 5.0.67.35
+Correct output: YES
+Output: YES
+
+Test 4.
+Input: 7.678.45.1
+Correct output: NO
+Output: NO
+
+Test 5.
+Input: 255.0.255.0
+Correct output: YES
+Output: YES
