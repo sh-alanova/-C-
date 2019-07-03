@@ -6,7 +6,6 @@ int main() {
     FILE * fout = fopen("output.txt", "w");
     int number, sum = 0;
     while(fscanf(fin, "%d", &number) == 1) {
-        fprintf(fout, "%d\n", number);
         sum += number;
     }
     fprintf(fout, "%d\n", sum);
