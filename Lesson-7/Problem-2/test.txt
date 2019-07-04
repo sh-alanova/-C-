@@ -1,0 +1,29 @@
+Test 0.
+Input: 5 ABCDEFGH
+Correct output: D
+Output: D
+
+Test 1.
+Input: 4 Aibek
+Correct output: b
+Output: b
+
+Test 2.
+Input: 3 Aziza
+Correct output: z
+Output: z
+
+Test 3.
+Input: 7 Shirin
+Correct output: n
+Output: n
+
+Test 4.
+Input: 2 Moscow
+Correct output: M
+Output: M
+
+Test 5.
+Input: 6 Bishkek
+Correct output: k
+Output: k
