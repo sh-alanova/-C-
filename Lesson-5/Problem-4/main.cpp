@@ -1,18 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <math.h>
+#include <stdlib.h>
 
 int main() {
-    char strs[101];
-    fgets(strs, 101, stdin);
-    int i, j = strlen(strs) - 2;
-    for(i = 0; i < j; ++i) {
-        if(strs[i] - strs[j] != 0 && abs(strs[i] - strs[j]) != 32) {
-            printf("NO");
+    char str[101];
+    scanf("%s", &str);
+    int n = strlen(str);
+    for(int i = 0; i < n / 2; ++i) {
+        int diff = abs(str[i] - str[n - i - 1]);
+        if(diff != 0 && diff != 'a' - 'A') {
+            printf("No");
             return 0;
         }
-        --j;
     }
     printf("YES");
+    return 0;
 }
