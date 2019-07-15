@@ -1,0 +1,35 @@
+Test 0.1.
+Input: Radar
+Correct output: YES
+Output: YES
+
+Test 0.2.
+Input: YES
+Correct output: NO
+Output: NO
+
+Test 1.
+Input: RafAr
+Correct output: YES
+Output: YES
+
+Test 2.
+Input: MamA
+Correct output: NO
+Output: NO
+
+Test 3.
+Input: kAzaK
+Correct output: YES
+Output: YES
+
+Test 4.
+Input: FamIlY
+Correct output: NO
+Output: NO
+
+Test 5.
+Input: poTop
+Correct output: YES
+Output: YES
+
