@@ -9,10 +9,7 @@ int main() {
         for(int i = k; i < n ; ++i) {
             int j = i - k;
             arr[i][j] = k;
-        }
-        for(int j = k; j < n ; ++j) {
-            int i = j - k;
-            arr[i][j] = k;
+            arr[j][i] = k;
         }
     }
     for(int i = 0; i < n ; ++i) {
