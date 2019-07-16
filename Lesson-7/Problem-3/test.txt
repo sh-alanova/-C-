@@ -1,0 +1,24 @@
+Test 0.
+Input: hello
+Correct output: 5
+Output: 5
+
+Test 1.
+Input: abc
+Correct output: 3
+Output: 3
+
+Test 2.
+Input: Moscow
+Correct output: 6
+Output: 6
+
+Test 3.
+Input: Bishkek is a town
+Correct output: 17
+Output: 17
+
+Test 4.
+Input: Shirin
+Correct output: 6
+Output: 6
