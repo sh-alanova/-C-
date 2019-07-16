@@ -1,0 +1,42 @@
+Test 0.
+Input:
+5
+1
+2
+3
+2
+1
+Correct output: 3
+Output: 3
+
+Test 1.
+Input: 
+3
+1
+6
+9
+Correct output: 9
+Output: 9
+
+Test 2.
+Input:
+7
+67
+55
+90
+345
+23
+98
+34
+Correct output: 345
+Output: 345
+
+Test 4.
+Input: 
+4
+98
+45
+33
+32
+Correct output: 98
+Output: 98
