@@ -5,14 +5,14 @@
 int main() {
     int N;
     scanf("%d", &N);
-    int str[N];
+    int arr[N];
     for(int i = 0; i < N ; ++i) {
-        scanf("%d", &str[i]);
+        scanf("%d", &arr[i]);
     }
-    int max = str[0];
+    int max = arr[0];
     for(int i = 0; i < N; ++i) {
-        if(max < str[i]) {
-            max = str[i];
+        if(max < arr[i]) {
+            max = arr[i];
         }
     }
     printf("%d\n", max);
