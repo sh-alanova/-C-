@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
+int main() {
     FILE * fin = fopen("input.dat", "rb");
     FILE * fout = fopen("output.txt", "w");
     int count[256];
     for(int i = 0; i < 256; ++i) {
         count[i] = 0;
     }
-    char str[1024];
-    fscanf(fin, "%s", &str);
-    for(int i = 0; str[i] != 0; ++i) {
-        ++count[str[i]];
+    int c;
+    while((c = fgetc(fin)) != EOF) {
+        ++count[c];
     }
     int max = 0;
     for(int i = 0; i < 256; ++i) {
