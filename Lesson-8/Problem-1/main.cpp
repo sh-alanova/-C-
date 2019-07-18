@@ -9,9 +9,9 @@ int main()
     for(int i = 0; i < 100; ++i) {
         pa[i] = i + 1;
     }
-    free(pa);
 
     for (int _i = 0; _i < 100; ++_i)
         printf("%d\n", pa[_i]);
+    free(pa);
     return 0;
 }
