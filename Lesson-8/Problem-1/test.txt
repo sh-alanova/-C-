@@ -1,0 +1,16 @@
+Test 0.
+Input: 
+Correct output:
+1
+2
+3
+...
+99
+100
+Output: 
+1
+2
+3
+...
+99
+100
