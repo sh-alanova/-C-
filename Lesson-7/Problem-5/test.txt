@@ -1,0 +1,24 @@
+Test 0.1.
+Input: 123
+Correct output: 321
+Output: 321
+
+Test 1.
+Input: Shirin
+Correct output: nirihS
+Output: nirihS
+
+Test 2.
+Input: 12345
+Correct output: 54321
+Output: 54321
+
+Test 3.
+Input: 1
+Correct output: 1
+Output: 1
+
+Test 4.
+Input: Hello world!!!
+Correct output: !!!dlrow olleH
+Output: !!!dlrow olleH
