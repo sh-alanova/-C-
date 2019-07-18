@@ -4,8 +4,6 @@
 int main() {
     FILE * fin = fopen("input.dat", "rb");
     FILE * fout = fopen("output.dat", "wb");
-    char str[1048575];
-    fscanf(fin, "%s", &str);
     fseek(fin, 0, SEEK_END);
     int file_size = ftell(fin), k;
     for(int i = file_size - 1; i >= 0; --i) {
@@ -15,4 +13,4 @@ int main() {
     }
     fclose(fin);
     fclose(fout);
-    }
+}
