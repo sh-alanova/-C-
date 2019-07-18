@@ -1,0 +1,30 @@
+Test 0.1.
+Input: Hello
+Correct output: 108
+Output: 108
+
+Test 0.2.
+Input: 1234567890
+Correct output: 48
+Output: 48
+
+Test 1.
+Input: Shirin
+Correct output: 105
+Output: 105
+
+Test 2.
+Input: 12345
+Correct output: 49
+Output: 49
+
+Test 3.
+Input: g
+Correct output: 103
+Output: 103
+
+Test 4.
+Input: Hello world!!!
+Correct output: 33
+Output: 33
+
