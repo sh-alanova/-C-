@@ -1,0 +1,46 @@
+Test 0.1.
+Input: 0
+Correct output: 0 0 0 0
+Output: 0 0 0 0
+
+Test 0.2.
+Input: 1
+Correct output: 1 0 0 0
+Output: 1 0 0 0
+
+Test 0.3.
+Input: 256
+Correct output: 0 1 0 0
+Output: 0 1 0 0 
+
+Test 0.4.
+Input: 1000
+Correct output: 232 3 0 0
+Output: 232 3 0 0
+
+Test 0.5.
+Input: -1
+Correct output: 255 255 255 255
+Output: 255 255 255 255
+
+Test 1.
+Input: 123
+Correct output: 123 0 0 0
+Output: 123 0 0 0
+
+Test 2.
+Input: 7487
+Correct output: 63 89 0 0 
+Output: 63 89 0 0
+
+Test 3.
+Input: 2354
+Correct output: 50 9 0 0
+Output: 50 9 0 0
+
+Test 4.
+Input: 1111
+Correct output: 87 4 0 0 
+Output: 87 4 0 0
+
+
