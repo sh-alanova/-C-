@@ -1,0 +1,15 @@
+Test 0.1.
+Input: 0 0 0 0
+Correct output: 0 
+Output: 0 
+
+Test 0.2.
+Input: 1 0 0 0
+Correct output: 1
+Output: 1
+
+Test 0.3.
+Input: data
+Correct output: 1635017060
+Output: 1635017060
+
