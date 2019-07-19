@@ -1,0 +1,10 @@
+Test 0.1.
+Input: 1635017060
+Correct output: data
+Output: data
+
+Test 0.2.
+Input: 561210713
+Correct output: Yes!
+Output: Yes!
+
