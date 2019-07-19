@@ -1,0 +1,29 @@
+Test 0.
+Input: MMCDLXXIX
+Correct output: 2479
+Output: 2479
+
+Test 1.
+Input: III
+Correct output: 3
+Output: 3
+
+Test 2.
+Input: IX
+Correct output: 9
+Output: 9
+
+Test 3.
+Input: CIV
+Correct output: 104
+Output: 104
+
+Test 4.
+Input: MLXIX
+Correct output: 1069
+Output: 1069
+
+Test 5.
+Input: MMMDCLXXIXIV
+Correct output: 3683
+Output: 3683
