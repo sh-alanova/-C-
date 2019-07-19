@@ -1,0 +1,40 @@
+Test 0.1.
+Input: 1
+Correct output: 1 korova
+Output: 1 korova
+
+Test 0.2.
+Input: 2
+Correct output: 2 korovy
+Output: 2 korovy
+
+Test 0.3.
+Input: 5
+Correct output: 5 korov
+Output: 5 korov
+
+Test 1.
+Input: 11
+Correct output: 11 korov
+Output: 11 korov
+
+Test 2.
+Input: 13
+Correct output: 13 korov
+Output: 13 korov
+
+Test 3.
+Input: 41
+Correct output: 41 korova 
+Output: 41 korova
+
+Test 4.
+Input: 32
+Correct output: 32 korovy
+Output: 32 korovy
+
+Test 5.
+Input: 67
+Correct output: 67 korov
+Output: 67 korov
+
