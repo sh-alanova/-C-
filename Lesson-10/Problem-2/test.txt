@@ -1,0 +1,34 @@
+Test 0.1.
+Input: 60 2
+Correct output: 11
+Output: 11
+
+Test 0.2.
+Input: -1 1
+Correct output: 108
+Output: 108
+
+Test 1.
+Input: 50 1
+Correct output: 50 
+Output: 50
+
+Test 2.
+Input: 0 4
+Correct output: 0 
+Output: 0
+
+Test 3.
+Input: 45 3
+Correct output: 26
+Output: 26
+
+Test 4.
+Input: 34 6
+Correct output: 95
+Output: 95
+
+Test 5.
+Input: -100 3
+Correct output: 27
+Output: 27
