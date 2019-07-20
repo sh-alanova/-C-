@@ -1,0 +1,58 @@
+Test 0.
+Input: 1 2 3 0
+Correct output: 
+0
+3
+2
+1
+Output: 
+0
+3
+2
+1
+
+Test 2.
+Input: 2 5 3 1 0
+Correct output: 
+0
+1
+3
+5
+2
+Output: 
+0
+1
+3
+5
+2
+
+Test 3.
+Input: 1 0
+Correct output:
+0
+1
+Output: 
+0
+1
+
+Test 4.
+Input: 0 
+Correct output: 0
+Output: 0
+
+Test 5.
+Input: 23 21 22 34 0
+Correct output: 
+0
+34
+22
+21
+23
+Output:
+0
+34
+22
+21
+23
+
+ 
