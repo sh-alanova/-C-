@@ -7,7 +7,7 @@ int sum() {
     if(n == 0) {
         return 0;
     } else {
-        return n += sum(n);
+        return n + sum();
     }
 }
 
