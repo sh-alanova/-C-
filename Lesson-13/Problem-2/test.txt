@@ -10,13 +10,13 @@ Output: 0.004330
 
 Test 2.
 Input: 15 23 25
-Correct output: -1.333333 -0.200000
-Output: -1.333333 -0.200000
+Correct output: 169.458513
+Output: 169.458513
 
 Test 3.
 Input: 67 98 15
-Correct output: 169.458513
-Output: 169.458513
+Correct output: 654.980916
+Output: 654.980916
 
 Test 4.
 Input: 12 24 17
