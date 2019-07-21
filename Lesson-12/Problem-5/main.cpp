@@ -1,21 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int main() {
     int n, k;
     scanf("%d%d", &n, &k);
-    int bit[32];
-    for(int i = 31; i >= 0; --i) {
-        bit[i] = (n >> i) & 1;
-    }
-    for(int i = 31; i >= k; --i) {
-        bit[i] = 0;
-    }
-    int res = 0;
-    for(int i = k; i >= 0; --i) {
-        res += bit[i] * pow(2, i);
-    }
-    printf("%d\n", res);
+        printf("%d", n & ~(~0 >> k << k));
     return 0;
 }
