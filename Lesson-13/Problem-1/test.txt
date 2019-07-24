@@ -1,0 +1,30 @@
+Test 0.
+Input: 1 -1 -2
+Correct output: -1.000000 2.000000
+Output: -1.000000 2.000000
+
+Test 1.
+Input: 3 4 1
+Correct output: -1.000000 -0.333333
+Output: -1.000000 -0.333333
+
+Test 2.
+Input: 15 23 4
+Correct output: -1.333333 -0.200000
+Output: -1.333333 -0.200000
+
+Test 3.
+Input: 67 98 15
+Correct output: -1.289001 -0.173685
+Output:  -1.289001 -0.173685
+
+Test 4.
+Input: 12 34 -67
+Correct output: -4.171713 1.338379
+Output: -4.171713 1.338379
+
+Test 5.
+Input: -3 8 -4
+Correct output: 0.666667 2.000000
+Output: 0.666667 2.000000
+
