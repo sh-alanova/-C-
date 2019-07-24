@@ -1,0 +1,29 @@
+Test 0.
+Input: 3 4 5
+Correct output: 6.000000
+Output: 6.000000
+
+Test 1.
+Input: 0.1 0.1 0.1
+Correct output: 0.004330
+Output: 0.004330
+
+Test 2.
+Input: 15 23 25
+Correct output: 169.458513
+Output: 169.458513
+
+Test 3.
+Input: 67 98 15
+Correct output: 654.980916
+Output: 654.980916
+
+Test 4.
+Input: 12 24 17
+Correct output: 92.529773
+Output: 92.529773
+
+Test 5.
+Input: 3 3 3
+Correct output: 3.897114
+Output: 3.897114
