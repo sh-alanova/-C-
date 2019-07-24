@@ -1,0 +1,34 @@
+Test 0.1.
+Input: 3 4 5
+Correct output: rectangular
+Output: rectangular
+
+Test 0.2.
+Input: 1 1 1
+Correct output: acute 
+Output: acute
+
+Test 1.
+Input: 3 7 6
+Correct output: obtuse
+Output: obtuse
+
+Test 2.
+Input: 34 36 32
+Correct output: acute
+Output: acute
+
+Test 3.
+Input: 1 2 3
+Correct output: impossible 
+Output: impossible
+
+Test 4.
+Input: 5 2 6
+Correct output: obtuse
+Output: obtuse
+
+Test 5.
+Input: 12 5 13
+Correct output: rectangular
+Output: rectangular
