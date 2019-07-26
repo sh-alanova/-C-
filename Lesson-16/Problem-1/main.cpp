@@ -3,18 +3,19 @@
 
 using namespace std;
 
+void swap(int & x, int & y, int & z) {
+    int tmp = x;
+        x = y;
+        y = z;
+        z = tmp;
+}
+
 int max(int & a, int & b, int & c) {
     if(b >= a && b >= c) {
-        int tmp = b;
-        b = c;
-        c = a;
-        a = tmp;
+        swap(b, c, a);
     }
     else if(c >= a && c >= b) {
-        int tmp = c;
-        c = b;
-        b = a;
-        a = tmp;
+        swap(c, b, a);
     }
 }
 
