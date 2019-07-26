@@ -9,15 +9,14 @@ int main() {
         a[i] = i + 1;
     }
     for (int i = 0; i < n; ++i) {
-        int count = rand() % k;
-        for(int j = 0; j < count; ++j) {
-            int g = rand() % k;
+        for(int j = 0; j < k; ++j) {
+            int s = j + rand() % (k);
             int tmp = a[j];
-            a[j] = a[g];
-            a[g] = tmp;
+            a[j] = a[s];
+            a[s] = tmp;
         }
-        for(int i = 0; i < k; ++i) {
-            printf("%d ", a[i]);
+        for(int p = 0; p < k; ++p) {
+            printf("%d ", a[p]);
         }
         printf("\n");
     }
