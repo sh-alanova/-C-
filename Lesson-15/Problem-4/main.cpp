@@ -1,7 +1,7 @@
 #include <iostream>
 
 bool XOR(bool x, bool y) {
-    bool a = x ^ y;
+    return x ^ y;
 }
 
 int main() {
