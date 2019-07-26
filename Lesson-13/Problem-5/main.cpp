@@ -4,7 +4,7 @@
 
 int main() {
     double x, y;
-    scanf("%lflf", &x, &y);
+    scanf("%lf%lf", &x, &y);
     double temp_1 = x, temp_2 = 0;
     int count = 0;
     for(int i = 0; y >= 1; ++i) {
