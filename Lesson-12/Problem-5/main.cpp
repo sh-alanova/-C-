@@ -4,6 +4,6 @@
 int main() {
     int n, k;
     scanf("%d%d", &n, &k);
-        printf("%d", n & ~(~0 >> k << k));
+    printf("%d", n & ~(~0 >> k << k));
     return 0;
 }
