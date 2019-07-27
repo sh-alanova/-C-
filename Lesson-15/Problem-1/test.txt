@@ -1,0 +1,21 @@
+Test 0.
+Input: 3 #
+Correct output: ###
+Output: ###
+
+Test 1.
+Input: 5 i
+Correct output: iiiii
+Output: iiiii
+
+Test 2.
+Input: 1 t
+Correct output: t
+Output: t
+
+Test 3.
+Input: 10 $
+Correct output: $$$$$$$$$$
+Output: $$$$$$$$$$
+
+
