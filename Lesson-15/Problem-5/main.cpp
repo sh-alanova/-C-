@@ -3,20 +3,16 @@
 using namespace std;
 
 int max(int a = 0, int b = 0, int c = 0) {
+    int res;
     if(a > b) {
-        if(a > c) {
-            return a;
-        } else {
-            return c;
-        }
+        res = a;
     } else {
-        if(b > c) {
-            return b;
-        } else {
-            return c;
-        }
+        res = b;
     }
-
+    if(res < c) {
+        res = c;
+    }
+    return res;
 }
 
 int main() {
