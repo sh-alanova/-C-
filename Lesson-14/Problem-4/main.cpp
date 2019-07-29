@@ -10,7 +10,7 @@ int main() {
     }
     for (int i = 0; i < n; ++i) {
         for(int j = 0; j < k; ++j) {
-            int s = j + rand() % (k);
+            int s = j + rand() % (k - j);
             int tmp = a[j];
             a[j] = a[s];
             a[s] = tmp;
