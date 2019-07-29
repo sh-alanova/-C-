@@ -1,0 +1,20 @@
+Test 0.
+Input: In a hole in the ground there lived a hobbit.
+Correct output: Lq d kroh lq wkh jurxqg wkhuh olyhg d kreelw.
+Output: Lq d kroh lq wkh jurxqg wkhuh olyhg d kreelw.
+
+Test 1.
+Input: Shirin
+Correct output: Vklulq
+Output: Vklulq
+
+Test 2.
+Input: Abc Defg H, Ijk.
+Correct output: Def Ghij K, Lmn.
+Output: Def Ghij K, Lmn.
+
+Test 3.
+Input: a
+Correct output: d
+Output: d
+
