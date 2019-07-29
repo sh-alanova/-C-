@@ -3,17 +3,25 @@
 
 using namespace std;
 
+bool IsAlpha(char c) {
+    if((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 int main() {
     string s;
-    int count = 1;
+    int count = 0;
     getline(cin, s);
-    for(int i = 0; s[i] != 0; ++i){
-        if(s[i] == ' ') {
+    if(IsAlpha(s[0])) {
+        ++count;
+    }
+    for(int i = 1; i < s.size(); ++i){
+        if(!IsAlpha(s[i - 1]) && IsAlpha(s[i])) {
             ++count;
         }
-    }
-    if(s[s.size() - 1] == ' ') {
-        --count;
     }
     cout << count;
 }
