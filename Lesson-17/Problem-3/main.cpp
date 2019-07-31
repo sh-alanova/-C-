@@ -11,7 +11,6 @@ bool IsAlpha(char c) {
     }
 }
 
-
 int main() {
     string s;
     string tmp, longest_word;
@@ -19,6 +18,8 @@ int main() {
     for(int i = 0; i < s.size(); ++i){
         if(IsAlpha(s[i])) {
             tmp += s[i];
+        } else {
+            tmp = "";
         }
         if(tmp.size() > longest_word.size()) {
             longest_word = tmp;
@@ -26,8 +27,4 @@ int main() {
     }
     cout << longest_word;
 }
-
-
-
-
 
