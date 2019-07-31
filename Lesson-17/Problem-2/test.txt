@@ -1,0 +1,20 @@
+Test 0.
+Input: Yesterday, all my troubles seemed so far away
+Correct output: 8
+Output: 8
+
+Test 1.
+Input: hvgh hjh
+Correct output: 2
+Output: 2
+
+Test 2.
+Input: Sh i rin
+Correct output: 3
+Output: 3
+
+Test 3.
+Input: I
+Correct output: 1
+Output: 1
+
