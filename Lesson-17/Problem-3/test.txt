@@ -1,0 +1,19 @@
+Test 0.
+Input: In a hole in the ground there lived a hobbit.
+Correct output: ground
+Output: ground
+
+Test 1.
+Input: Sh i rin
+Correct output: rin
+Output: rin
+
+Test 2.
+Input: Fjjb hjgbh jnnj
+Correct output: hjgbh
+Output: hjgbh
+
+Test 3.
+Input: I
+Correct output: I
+Output: I
